@@ -1,0 +1,10 @@
+var constants = {
+	GENERATE_MINEFIELD: 'GENERATE_MINEFIELD',
+	PLACE_FLAG: 'PLACE_FLAG',
+	REVEAL: 'REVEAL',
+	MINE_EXPLODED: 'MINE_EXPLODED',
+	RESET: 'RESET',
+	GAME_WON: 'GAME_WON'
+};
+
+module.exports = constants;

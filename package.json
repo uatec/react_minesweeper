@@ -1,0 +1,20 @@
+{
+  "name": "react_minesweeper",
+  "publisher": "HiDef Software Ltd",
+  "version": "0.0.1",
+  "dependencies": {
+    "react-dom": "^0.14.3",
+    "fluxxor": "^1.7.3"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "jsx-loader": "^0.13.2",
+    "style-loader": "^0.13.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --hot --debug --devtool inline-source-map"
+  }
+}
