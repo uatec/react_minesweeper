@@ -39,7 +39,7 @@ var GridStore = Fluxxor.createStore({
     }
     if ( this._allCellsRevealed(this.minefield) )
     {
-      this.flux.actions.winGame();  
+      this.flux.actions.gameWon();  
     }
     this.emit('change');  
   },
